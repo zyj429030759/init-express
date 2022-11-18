@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const userRouter = require('./router/user')
 
 /// 创建服务器实例对象
 const app = express()
@@ -10,6 +11,9 @@ app.use(cors())
 app.use(express.urlencoded({ extended: false }))
 // 配置解析表单数据为application/json 格式的内置中间件
 // app.use(express.json())
+
+// 注册用户路由模块
+app.use('/api', userRouter)
 
 
 
