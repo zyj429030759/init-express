@@ -1,0 +1,23 @@
+{
+  "name": "init-express",
+  "version": "1.0.0",
+  "description": "express框架的初始化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyj429030759/init-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyj429030759/init-express/issues"
+  },
+  "homepage": "https://github.com/zyj429030759/init-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
